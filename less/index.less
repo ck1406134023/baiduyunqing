@@ -1,155 +1,7 @@
 
 .loginbox{
-  position: fixed;
-  display: none;
-  height: 0;
-  width: 100%;
-  max-width:299px;
-  z-index: 100;
-  top:20%;
-  left: 60%;
-  padding:25px 20px;
-  background: #4EBFFC;
-  box-shadow: 5px;
-  .login{
-    .account{
-      width: 100%;
-      max-width:299px;
-      height:40px;
-      background: #fff;
-      margin-bottom: 20px;
-      span{
-        background:url(../images/icons.png)no-repeat;
-        background-position:-124px -12px;
-        float: left;
-        width: 14px;
-        height: 14px;
-        margin: 12px 3px 0 10px;
-      }
-      input{
-        width: 84.28%;
-        outline: none;
-        padding: 9px;
-        height: 20px;
-        box-shadow: none;
-        box-sizing: content-box;
-        float: left;
-        border: 0;
-      }
+  padding: 0 20px;
 
-    }
-  }
-  .pwd{
-    .account{
-      width: 100%;
-      max-width:299px;
-      height:40px;
-      background:#fff;
-      margin-bottom: 20px;
-      span{
-        background:url(../images/icons.png)no-repeat;
-        background-position: -140px -12px;
-        float: left;
-
-        width: 14px;
-        height: 14px;
-        margin: 12px 3px 0 10px;
-      }
-      input{
-        width: 84.28%;
-        outline: none;
-        padding: 9px;
-        height: 20px;
-        box-shadow: none;
-        box-sizing: content-box;
-        float: left;
-        border: 0;
-      }
-    }
-  }
-  .yanzheng{
-    width: 100%;
-    max-width:299px;
-    height:40px;
-    margin-bottom: 30px;
-    .yanma{
-      width: 122px;
-      outline: none;
-      padding: 9px;
-      height: 20px;
-      box-shadow: none;
-      box-sizing: content-box;
-      float: left;
-      border: 0;
-    }
-    img{
-      display: block;
-      float: left;
-      opacity: .6;
-      border-top: 1px solid #e5e5e5;
-      border-left: 1px solid #e5e5e5;
-      margin-left: 10px;
-      width: 99px;
-      height: 39px;
-    }
-    a{
-      margin: 10px 0 0 10px;
-      font-size: 12px;
-      color:#fff;
-      display: block;
-      float: left;
-      text-decoration: none;
-    }
-  }
-  .denglu{
-    border: 0;
-    background: #ffd850;
-    color: #5c4c12;
-    border-radius: 2px;
-    width: 100%;
-    max-width:299px;
-    padding: 0px;
-    font-size: 18px;
-    line-height: 35px;
-    text-align: center;
-    vertical-align: middle;
-  }
-  .other{
-    margin: 12px 0 8px;
-    font-size: 12px;
-    color: #9dbcdb;
-    .fl{
-      float: left;
-      vertical-align: top;
-      margin: 0;
-      padding: 0;
-      span{
-        display: inline-block;
-        width: 15px;
-        height: 17px;
-        background: url(../images/icons.png) no-repeat -203px -75px;
-        margin: 2px 4px 0 0;
-      }
-      a{
-        text-decoration: none;
-        color: #fff;
-
-      }
-    }
-    .fr{
-      float: right;
-      text-decoration: none;
-      color: #fff;
-    }
-  }
-}
-@media screen and (max-width: 768px){
-  .loginbox{
-    width: 100%;
-    position: absolute;
-    left:5%;
-    top:10%;
-  }
 }
 .menu-box{
   font-family: "Microsoft Yahei";
@@ -159,7 +11,6 @@
   position: fixed;
   top: 0;
   z-index: 10;
-
   .menu{
     max-width: 1000px;
     height: 100%;
@@ -208,19 +59,18 @@
       }
     }
   }
-  .xs{
-    display: none;
-  }
 }
-@media screen and (max-width:775px){
+@media screen and (max-width: 775px){
   .menu{
     display: none;
   }
-  .menu-box .xs{
+
+  .xs{
     display: block;
     width: 100%;
     height: 60px;
     position: fixed;
+
     background: #168BD8;
     .logo{
       background: url(../images/header_z_94c6de7.png);
@@ -261,8 +111,8 @@
   position: absolute;
   left: 290px;
   top:160px;
-  -webkit-animation:move3 2s linear infinite alternate;
-  nimation:move3 2s linear infinite alternate;
+  -webkit-animation:move3 2s linear infinite;
+  nimation:move3 2s linear infinite;
 }
 .imgs img:nth-of-type(2){
   position: absolute;
@@ -271,10 +121,10 @@
 }
 .imgs img:nth-of-type(3){
   position: absolute;
-  left:50%;
+  left: 150px;
   bottom:90px;
-  -webkit-animation:move2 1s linear infinite alternate;
-  animation:move2 1.5s linear infinite alternate;
+  -webkit-animation:move2 1s linear infinite;
+  animation:move2 1s linear infinite;
 }
 .imgs img:nth-of-type(4){
   position: absolute;
@@ -293,20 +143,20 @@
 }
 .imgs img:nth-of-type(7){
   position: absolute;
-  -webkit-animation:move 16s linear infinite alternate;
-  animation:move 16s linear infinite alternate;
+  -webkit-animation:move 16s linear infinite;
+  animation:move 16s linear infinite;
 }
 .imgs img:nth-of-type(8){
   position: absolute;
-  -webkit-animation:move 16s linear infinite alternate;
-  animation:move 16s linear infinite alternate;
+  -webkit-animation:move 16s linear infinite;
+  animation:move 16s linear infinite;
 }
 .imgs img:nth-of-type(9){
   position: absolute;
   top:0;
   left:0px;
-  -webkit-animation:move 16s linear infinite alternate;
-  animation:move 16s linear infinite alternate;
+  -webkit-animation:move 16s linear infinite;
+  animation:move 16s linear infinite;
 }
 .next{
   position: absolute;
@@ -360,15 +210,12 @@
       letter-spacing: 2px;
       line-height: 48px;
       margin-bottom: 6px;
-      text-align: left;
     }
     p{
       font-size: 19px;
       letter-spacing: 1px;
       line-height: 32px;
       opacity: .8;
-      margin-top:8px;
-      text-align: left;
     }
   }
   .imgs{
@@ -384,18 +231,9 @@
       transform-style: preserve-3d;
     }
     img:nth-of-type(2){
-      position: absolute;
-      left:70%;
+      position: relative;
+      left: 50%;
       top:20%;
-      z-index: 5;
-    }
-    img:nth-of-type(3){
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      z-index:4;
-      animation: none;
-      -webkit-animation: none;
     }
   }
 
@@ -414,15 +252,12 @@
       letter-spacing: 2px;
       line-height: 48px;
       margin-bottom: 6px;
-      text-align: left;
     }
     p{
       font-size: 19px;
       letter-spacing: 1px;
       line-height: 32px;
       opacity: .8;
-      margin-top:8px;
-      text-align: left;
     }
   }
   .imgs{
@@ -466,12 +301,12 @@
 }
 @keyframes move3{
   0%{
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
   }
   100%{
-    -webkit-transform: translateY(30%);
-    transform: translateY (30%);
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
   }
 }
 @keyframes move4{
@@ -485,16 +320,6 @@
   100%{
     -webkit-transform: rotateY(360deg);
     transform: rotateY(360deg);
-  }
-}
-@keyframes move6{
-  0%{
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-  }
-  100%{
-    -webkit-transform: translateX(20%);
-    transform: translateX(20%);
   }
 }
 @media screen and (max-width:775px){
@@ -524,9 +349,10 @@
         position:absolute;
         top:50%;
         left:8%;
-        -webkit-animation:none;
-        -o-animation:none;
-        animation:none;
+        -webkit-animation:move6 0.5s linear infinite;
+        animation:move6 0.5s linear infinite;
+        -webkit-animation:move6 0.5s linear infinite;
+        animation:move6 0.5s linear infinite;
         z-index:111;
       }
       img:nth-of-type(3){
@@ -542,25 +368,22 @@
     .text{
       color: #fff;
       position: absolute;
-      left: 25%;
+      left: 18%;
       top:25%;
-      animation:move6 1.5s linear infinite alternate;
-      -webkit-animation:move6 1.5s linear infinite alternate;
+      -webkit-animation: move2 2s infinite;
+      animation: move2 2s infinite;
       h4{
         font-size: 20px;
         font-weight: 400;
         letter-spacing: 2px;
         line-height: 48px;
         margin-bottom: 6px;
-        text-align: left;
       }
       p{
         font-size: 16px;
         letter-spacing: 1px;
         line-height: 32px;
         opacity: .8;
-        margin-top:8px;
-        text-align: left;
       }
     }
     .imgs{
@@ -587,25 +410,22 @@
     .text{
       color: #fff;
       position: absolute;
-      left: 25%;
+      left: 18%;
       top:25%;
-      animation:move6 1.5s linear infinite alternate;
-      -webkit-animation:move6 1.5s linear infinite alternate;
+      -webkit-animation: move2 2s infinite;
+      animation: move2 2s infinite;
       h4{
         font-size: 20px;
         font-weight: 400;
         letter-spacing: 2px;
         line-height: 48px;
         margin-bottom: 6px;
-        text-align: left;
       }
       p{
         font-size: 16px;
         letter-spacing: 1px;
         line-height: 32px;
         opacity: .8;
-        margin-top:8px;
-        text-align: left;
       }
     }
     .imgs{
